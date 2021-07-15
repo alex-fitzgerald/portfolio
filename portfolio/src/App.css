@@ -60,7 +60,7 @@ p {
 .mainpage h2 {
   color:white;
   font-family: neue-kabel, sans-serif;
-  font-size: calc(10px 5vh);
+  font-size: calc(10px + 5vh);
   font-style: normal;
   font-weight: 900;
   line-height:1;
