@@ -8,6 +8,18 @@ import Button from './components/Button.jsx'
 
 function App() {
   const [navigation, setNavigation] = useState(null)
+  const [data, setData] = useState(null)
+
+  React.useEffect(() => {
+    fetch("/api", {
+      headers : {
+        "Content-Type": "applications/json",
+        "Accept": "application/json"
+      }
+    })
+      .then((res) => res.json())
+      .then((data) => setData(data.message));
+  }, []);
 
   function chooseSkills(skills){
     console.log(skills)

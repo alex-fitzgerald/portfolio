@@ -1,15 +1,16 @@
-const path = require('path');
-const express = require('express');
+const express = require("express");
+const bodyParser = require("body-parser");
+const mongoose = require("mongoose");
+const _ = require("lodash")
+const PORT = process.env.port || 3001;
+
 const app = express();
-const publicPath = path.join(__dirname, '..', 'portfolio/public');
-const port = process.env.PORT || 3000;
+app.use(express.static('public'));
 
-app.use(express.static(publicPath));
-
-app.get('*', (req, res) => {
-   res.sendFile(path.join(publicPath, 'index.html'));
+app.get("/api", (req, res) => {
+    res.json({message: "Hello from server!"});
 });
 
-app.listen(port, () => {
-   console.log('Server is up!');
+app.listen(PORT , () => {
+    console.log("server listening on " + PORT)
 });
