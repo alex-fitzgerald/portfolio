@@ -31,13 +31,13 @@ function Graphic(){
                     />
                 </div>
                 <div className="spread">
-                    <h3>FNZ's 2022 Graduate Recruitment Campaign</h3>
+                    <h3>Datacom's 2022 Graduate Recruitment Campaign</h3>
                     <img 
-                        alt="FNZ Graduate Campaign, Sample 1" 
+                        alt="Datacom Graduate Campaign, Sample 1" 
                         src={datacom1}
                     />
                     <img 
-                        alt="FNZ Graduate Campaign, Sample 2" 
+                        alt="Datacom Graduate Campaign, Sample 2" 
                         src={datacom2}
                     />
                 </div>
