@@ -15,6 +15,7 @@ function Graphic(){
     return (
             <div>
                 <h2>Graphic Design</h2>
+                <div className="spread-parent">
                 <div className="spread">
                     <h3>FNZ's 2022 Graduate Recruitment Campaign</h3>
                     <img 
@@ -71,6 +72,7 @@ function Graphic(){
                         alt="RMCV Graduate Campaign, Sample 3" 
                         src={rmcv2}
                     />
+                </div>
                 </div>
             </div>
     )

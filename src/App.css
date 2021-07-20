@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif
 }
 
 ::-webkit-scrollbar {
@@ -8,8 +9,9 @@ html {
 }
 
 iframe {
-  width:80%;
-  min-height:400px;
+  width:100%;
+  margin:auto;
+  min-height:800px;
   border:none;
 }
 
@@ -18,6 +20,7 @@ body {
   text-shadow: 0px 0px 1px rgba(0,0,0,0.01);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins', sans-serif
 }
 
 p {
@@ -54,20 +57,7 @@ p {
   font-style: normal;
   font-weight: 900;
   line-height:1;
-}
-
-@media only screen and (max-width:800px) {
-  .mainpage h1 {
-    font-size:calc(26px + 2.5vh)
-  }
-
-  .mainpage h2 {
-    font-size: calc(10px + 1.5vh)
-  }
-
-  .mainpage h3 {
-    font-size: calc(8px + 2vh);
-  }
+  margin-top:0px;
 }
 
 .mainpage h2 {
@@ -108,7 +98,7 @@ p {
   text-transform:uppercase;
   letter-spacing:2px;
   height:15px;
-  line-height:1;
+  line-height:1.5;
   padding:15px 30px;
   text-align:center;
   text-shadow: 0px 0px 1px rgba(0,0,0,0.1);
@@ -168,11 +158,17 @@ p {
   text-shadow: 0px 0px 20px rgba(0,0,0,.5), 0px 0px 1px rgba(0,0,0,.5);
 }
 
+.spread-parent {
+  display:flex;
+  flex-wrap:wrap;
+}
+
 .spread {
   min-height:800px;
-  width:100vw;
+  min-width:600px;
   margin:100px auto;
   position:relative;
+  flex:1;
 }
 
 .spread img {
@@ -183,22 +179,21 @@ p {
   box-shadow:0px 0px 20px rgba(0,0,0,0.2);
 }
 
-
 .spread :nth-child(2){
   transform:rotate(2deg);
-  left:100px;
+  left:5vw;
   top:80px;
 }
 
 .spread :nth-child(3){
   transform:rotate(-15deg) scale(1.1);
-  left:400px;
+  left:20vw;
   top:250px;
 }
 
 .spread :nth-child(4){
   transform:rotate(20deg);
-  left:150px;
+  left:10vw;
   top:450px;
 }
 
@@ -237,6 +232,27 @@ p {
   min-height:400px;
   margin:100px 0px;
 }
+
+
+@media only screen and (max-width:600px) {
+  .mainpage h1 {
+    font-size:calc(26px + 2.5vh)
+  }
+
+  .mainpage h2 {
+    font-size: calc(10px + 1.5vh)
+  }
+
+  .mainpage h3 {
+    font-size: calc(8px + 1vh);
+  }
+
+  .button {
+    font-size: 10px;
+    padding: 10px 20px;
+  }
+}
+
 
 /* div {
   border: solid black
