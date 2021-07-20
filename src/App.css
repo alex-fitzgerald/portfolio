@@ -106,7 +106,7 @@ p {
   display:inline-block;
   flex:1;
   font-size:12px;
-  font-weight:700;
+  font-weight:700 !important;
   text-transform:uppercase;
   letter-spacing:2px;
   height:15px;
