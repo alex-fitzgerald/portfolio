@@ -7,8 +7,7 @@ import Portfolio from './components/Portfolio.jsx'
 import Button from './components/Button.jsx'
 
 function App() {
-  const [navigation, setNavigation] = useState(null)
-  const [data, setData] = useState(null)
+  const [navigation, setNavigation] = useState("Back")
 
   React.useEffect(() => {
     fetch("/api", {
@@ -18,7 +17,6 @@ function App() {
       }
     })
       .then((res) => res.json())
-      .then((data) => setData(data.message));
   }, []);
 
   function chooseSkills(skills){

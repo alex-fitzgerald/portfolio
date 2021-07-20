@@ -17,7 +17,7 @@ iframe {
 
 body {
   margin:0px;
-  text-shadow: 0px 0px 1px rgba(0,0,0,0.01);
+  text-shadow: 0px 0px 1px rgba(255,255,255,0.01);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Poppins', sans-serif
@@ -61,11 +61,25 @@ p {
 }
 
 .mainpage h2 {
-  color:white;
-  font-size: calc(10px + 2vh);
+  color:black;
+  padding:20px 30px;;
+  background-color:white;
+  display:inline-block;
+  font-size: calc(10px + 1vh);
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height:1;
+  letter-spacing:.5px;
+  position:relative;
+}
+
+.mainpage h2:after {
+  content:'';
+  position:absolute;
+  top:20px;
+  left:20px;
+  width:30px;
+  height:30px;
 }
 
 .mainpage h3 {
@@ -142,7 +156,6 @@ p {
   color:white;
   flex:1;
   font-size:20px;
-  font-weight:300;
   display:inline-block;
   margin:20px;
   width:40%;
@@ -152,10 +165,10 @@ p {
   color:white;
   flex:1;
   text-transform:initial;
-  font-size:20px;
+  font-size:16px;
   font-weight:400;
-  margin:20px;
-  text-shadow: 0px 0px 20px rgba(0,0,0,.5), 0px 0px 1px rgba(0,0,0,.5);
+  margin:20px 0px;
+  text-shadow: 0px 0px 20px rgba(0,0,0,.5), 0px 0px 1px rgba(49, 37, 37, 0.001);
 }
 
 .spread-parent {
@@ -240,7 +253,7 @@ p {
   }
 
   .mainpage h2 {
-    font-size: calc(10px + 1.5vh)
+    font-size: calc(10px + .6vh)
   }
 
   .mainpage h3 {
