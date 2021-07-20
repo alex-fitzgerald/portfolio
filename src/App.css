@@ -61,13 +61,11 @@ p {
 }
 
 .mainpage h2 {
-  color:black;
-  padding:20px 30px;;
-  background-color:white;
+  color:white;
   display:inline-block;
   font-size: calc(10px + 1vh);
   font-style: normal;
-  font-weight: 600;
+  font-weight: 800;
   line-height:1;
   letter-spacing:.5px;
   position:relative;
@@ -85,9 +83,9 @@ p {
 .mainpage h3 {
   bottom:50px;
   color:white;
-  font-size: calc(10px + 1vh);
+  font-size: calc(8px + 1vh);
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   display:inline-block;
 }
 
@@ -253,11 +251,11 @@ p {
   }
 
   .mainpage h2 {
-    font-size: calc(10px + .6vh)
+    font-size: calc(8px + 1.5vh)
   }
 
   .mainpage h3 {
-    font-size: calc(8px + 1vh);
+    font-size: calc(6px + 1vh);
   }
 
   .button {
