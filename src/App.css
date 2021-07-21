@@ -159,13 +159,20 @@ p {
   width:40%;
 }
 
+.languageschild img {
+  float:left;
+  margin-right:20px;
+  width:40px;
+}
+
 .languageschild div {
   color:white;
   flex:1;
   text-transform:initial;
   font-size:16px;
   font-weight:400;
-  margin:20px 0px;
+  line-height:2;
+  margin:40px 0px;
   text-shadow: 0px 0px 20px rgba(0,0,0,.5), 0px 0px 1px rgba(49, 37, 37, 0.001);
 }
 
