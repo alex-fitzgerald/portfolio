@@ -23,68 +23,68 @@ function Languages(){
                     <h2>Frontend</h2>
                     <div>
                         <img src={htmlimg} />
-                        HTML5
+                        <p>HTML5</p>
                     </div>
                     <div>
                         <img src={cssimg} />
-                        CSS3 & Bootstrap
+                        <p>CSS3 & Bootstrap</p>
                     </div>
                     
                     <div>
                         <img src={jsimg} />
-                        JavaScript & JQuery
+                        <p>JavaScript & JQuery</p>
                     </div>
                     <div>
                         <img src={reimg} />
-                        React.js
+                        <p>React.js</p>
                     </div>
                 </div>     
                 <div className="languageschild">
                     <h2>Backend</h2>
                     <div>
                         <img src={nodeimg} />
-                        Node.js & Express
+                        <p>Node.js & Express</p>
                     </div>
                     
                     <div>
                         <img src={mongoimg} />
-                        MongoDB and Mongoose
+                        <p>MongoDB and Mongoose</p>
                     </div>
                     
                     <div>
                         <img src={apiimg} />
-                        RESTful APIs
+                        <p>RESTful APIs</p>
                     </div>                
                     <div>
                         <img src={oauthimg} />
-                        Authentication and OAuth 2.0
+                        <p>Authentication and OAuth 2.0</p>
                     </div>
                 </div>
                 <div className="languageschild">
                     <h2>Creative Tools</h2>
                     <div>
                         <img src={xdimg} />
-                        Adobe Experience Designer
+                        <p>Adobe Experience Designer</p>
                     </div>
                     <div>
                         <img src={psimg} />
-                        Adobe Photoshop
+                        <p>Adobe Photoshop</p>
                     </div>                
                     <div>
                         <img src={aiimg} />
-                        Adobe Illustrator
+                        <p>Adobe Illustrator</p>
                     </div>                  
                     <div>
                         <img src={idimg} />
-                        Adobe InDesign
+                        <p>Adobe InDesign</p>
                     </div>                  
                     <div>
                        <img src={primg} />
-                        Adobe Premiere Pro
+                        <p>Adobe Premiere Pro</p>
                     </div>
                     <div>
                         <img src={aeimg} />
-                        Adobe After Effects
+                        <p>Adobe After Effects</p>
                     </div>
                 </div>
                 <div style={{marginBottom:200}}></div>

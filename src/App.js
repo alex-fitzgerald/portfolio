@@ -5,6 +5,7 @@ import Choice from './components/Choice.jsx'
 import Skills from './components/Skills.jsx'
 import Portfolio from './components/Portfolio.jsx'
 import Button from './components/Button.jsx'
+import Footer from './components/Footer.jsx'
 
 function App() {
   const [navigation, setNavigation] = useState("Back")
@@ -24,19 +25,14 @@ function App() {
     setNavigation(skills)
   }
 
-  function footerName(){
-    if (navigation === null) {
-      return null
-    } else {
-      return (<h2>Alex Fitzgerald</h2>)
-    }
-  }
+  function onHover(buttonHovered){
+}
 
   function menuButton(){
     if (navigation === null || navigation === "Main menu" || navigation === "Back" ) {
       return null
     } else {
-      return (<Button name="Back" color="white menuButton" onChoice={chooseSkills} />)
+      return (<Button name="Back" color="white menuButton" onChoice={chooseSkills} onHover={onHover}/>)
     }
   }
 
@@ -57,14 +53,7 @@ function App() {
       <div className="mainpage">
       { menuButton() }
       { renderChoice() }
-      <div className="footer">
-      { footerName() }
-      <br />
-       <h3>Fullstack Web Developer and Graphic Designer</h3><br />
-       <a href="mailto:fitzgerald.s.alexander@gmail.com">fitzgerald.s.alexander@gmail.com</a><br />
-       <a href="https://www.linkedin.com/in/alexanderfitzgerald/">Contact me on LinkedIn</a><br />
-       <p>M: +64 21 941 738</p>
-      </div>
+      <Footer />
      </div>
     </div>
   );
