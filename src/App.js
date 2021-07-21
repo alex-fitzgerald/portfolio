@@ -61,6 +61,8 @@ function App() {
       { footerName() }
       <br />
        <h3>Fullstack Web Developer and Graphic Designer</h3>
+       <a href="mailto:fitzgerald.s.alexander@gmail.com">fitzgerald.s.alexander@gmail.com</a>
+       <p>M: +64 21 941 738</p>
       </div>
      </div>
     </div>
