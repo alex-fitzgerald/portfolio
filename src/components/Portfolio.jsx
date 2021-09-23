@@ -26,10 +26,9 @@ function Portfolio(){
             return (
                 <div className="choiceParent">
                     <div>
-                        <Button name="Web Development" color="white" onChoice={handleChoice} onHover={onHover} />
+                        <Button name="Web Development" color="white" onChoice={handleChoice} onHover={onHover} /></div>
                         <div className="buttonDivider"></div>
                         <Button name="Graphic Design" color="white" onChoice={handleChoice} onHover={onHover}/>
-                    </div>     
                 </div>     
             )
         } else {

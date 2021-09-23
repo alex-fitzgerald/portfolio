@@ -6,6 +6,7 @@ import Skills from './components/Skills.jsx'
 import Portfolio from './components/Portfolio.jsx'
 import Button from './components/Button.jsx'
 import Footer from './components/Footer.jsx'
+import CV from './components/CV.jsx'
 
 function App() {
   const [navigation, setNavigation] = useState("Back")
@@ -45,7 +46,9 @@ function App() {
           return <Skills />
         } if (navigation === "Portfolio") {
           return <Portfolio name="Back" color="white menuButton" onChoice={chooseSkills} />
-        }
+        } if (navigation === "CV") {
+          return <CV name="Back" color="white menuButton" onChoice={chooseSkills} />
+        } 
     }
 
   return (

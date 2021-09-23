@@ -87,7 +87,7 @@ function Languages(){
                         <p>Adobe After Effects</p>
                     </div>
                 </div>
-                <div style={{marginBottom:200}}></div>
+                <div style={{marginBottom:400}}></div>
             </div>
         </div>
     )
