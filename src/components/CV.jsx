@@ -1,5 +1,5 @@
 import React from 'react'
-import cv from '../img/Alexander Fitzgerald.pdf'
+import cv from '../img/Alexander Fitzgerald.pdf#view=FitH'
 
 
 function CV(){
