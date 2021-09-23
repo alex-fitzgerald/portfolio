@@ -1,5 +1,5 @@
 import React from 'react'
-import cv from '../img/Alexander Fitzgerald.pdf#view=FitH'
+import cv from '../img/Alexander Fitzgerald.pdf'
 
 
 function CV(){
@@ -8,7 +8,7 @@ function CV(){
          <h1>My CV</h1>
             <iframe 
                 title="Alex's CV" 
-                src={cv}
+                src={cv + "#view=FitH"}
                 allowFullScreen="true"
                 ></iframe>
         </div>
