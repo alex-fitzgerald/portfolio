@@ -32,7 +32,7 @@ function Graphic(){
                         />
                     </div>
                     <div className="spread">
-                        <h3>Datacom's 2022 Graduate Recruitment Campaign</h3>
+                        <h3>Datacom's 2022 Graduate Recruitment Campaign support</h3>
                         <img 
                             alt="Datacom Graduate Campaign, Sample 1" 
                             src={datacom1}

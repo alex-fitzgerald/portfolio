@@ -17,7 +17,7 @@ function Web(){
                     </div>
                     
                     <div className="web-development">
-                        <h3>Simple Event Signup page</h3>
+                        <h3>Simple Event Signup page (WIP)</h3>
                         <iframe 
                             scrolling="no"
                             title="Simple Event Signup page" 

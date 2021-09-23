@@ -112,12 +112,13 @@ body {
 
 .mainpage h3 {
   color: white;
-  font-size: calc(8px + 1vh);
+  font-size: 2em;
   font-style: normal;
   font-weight: 400;
   display: inline-block;
   text-shadow: 0px 0px 1px rgba(255, 255, 255, .1);
-  margin-bottom: 100px;
+  margin-top: 100px;
+  margin-bottom: 40px;
 }
 
 p {
@@ -357,6 +358,20 @@ a:hover {
     min-height: 400px;
     margin: 0px;
   }
+    
+  .choiceParent {
+    display: block;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 50%;
+    left:50%;
+    transform:translate(-50%, 0%);
+    width: unset;
+    margin: -6vw;
+
+  }
+
 
   
 }
