@@ -16,14 +16,6 @@ function Web(){
                         </iframe>
                     </div>
                     
-                    <div className="web-development">
-                        <h3>Simple Event Signup page (WIP)</h3>
-                        <iframe 
-                            scrolling="no"
-                            title="Simple Event Signup page" 
-                            src="https://nxtstep.co.nz/employerProfile/154">
-                        </iframe>
-                    </div>
 
                     <div className="web-development">
                         <h3>Spruced up client page - Countdown</h3>
@@ -31,6 +23,15 @@ function Web(){
                             scrolling="yes"
                             title="Spruced up client page" 
                             src="https://nxtstep.co.nz/employerProfile/countdown">
+                        </iframe>
+                    </div>
+                 
+                    <div className="web-development">
+                        <h3>Simple Event Signup page (WIP)</h3>
+                        <iframe 
+                            scrolling="no"
+                            title="Simple Event Signup page" 
+                            src="https://nxtstep.co.nz/employerProfile/154">
                         </iframe>
                     </div>
 
