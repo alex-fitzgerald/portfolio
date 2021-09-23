@@ -325,7 +325,7 @@ a:hover {
 }
 
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:800px) {
   .mainpage h1 {
     font-size: calc(26px + 2.5vh)
   }
@@ -341,7 +341,24 @@ a:hover {
   .button {
     font-size: 10px;
     padding: 10px 20px;
+    margin:0px;
   }
+
+  .apps .web-development {
+    width: 100%;
+    min-width: 400px;
+    min-height: 400px;
+    margin: 0px
+  }
+  
+  .pages .web-development {
+    width: 100%;
+    min-width: 400px;
+    min-height: 400px;
+    margin: 0px;
+  }
+
+  
 }
 
 

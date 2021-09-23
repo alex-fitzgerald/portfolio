@@ -54,9 +54,9 @@ function Web(){
                     </div>
                     </div>
                     <div class="apps">
+                    <h2>Apps</h2>
                 <div className="web-development-parent">
 
-                    <h2>Apps</h2>
 
                     <div style={{marginBottom:200}} className="web-development">
                         <h3>Random Daily Goal and Reminder App</h3>
