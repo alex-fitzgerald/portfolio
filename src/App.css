@@ -159,6 +159,17 @@ a:hover {
   text-shadow: 0px 0px 1px rgba(255, 255, 255, .1);
 }
 
+.footer h2 {
+  font-size: calc(8px + 1.5vh);
+}
+.footer h3 {
+  font-size: calc(8px + .5vh);
+}
+
+.spread h3 {
+  margin-top:-20px;
+}
+
 .choiceParent {
   display: flex;
   flex-wrap: wrap;
@@ -257,6 +268,7 @@ a:hover {
 .spread {
   min-height: 800px;
   min-width: 600px;
+  max-width: 600px;
   margin: 100px auto;
   position: relative;
   flex: 1;
