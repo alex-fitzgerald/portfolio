@@ -30,7 +30,7 @@ function Choice(props){
     return (
         <div>
             <h1>Hey{day}!</h1>
-            <h3>{blurb}</h3>
+            <h3 className="nav-blurb">{blurb}</h3>
             <div className="choiceParent">
                 <Button 
                     name="Skills"
