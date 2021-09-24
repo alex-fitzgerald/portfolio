@@ -25,7 +25,7 @@
   .apps .web-development {
     flex: 1;
     width: 100%;
-    min-width: 400px;
+    /* min-width: 400px; */
     min-height: 400px;
     margin: 100px 30px;
   }

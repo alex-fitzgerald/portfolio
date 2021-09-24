@@ -28,6 +28,8 @@
     .nav-blurb {
         font-size: calc(6px + 1vh);
         width:calc(100% - 100px);
+        height:240px
+
     }
 
     
@@ -37,8 +39,12 @@
 }
 
 @media only screen and (max-width:400px) {
-    .choiceParent {
+    .nav-blurb {
+        font-size: calc(6px + 1vh);
+        width:calc(100% - 100px);
+        height:290px
     }
+
 }
 
 .choice {
