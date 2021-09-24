@@ -101,10 +101,10 @@
     margin: -2px;
 }
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:800px) {
     .button {
         font-size: 1.1em;
-        min-width: 100px;
+        min-width: 200px;
         height: 60px;
         margin-bottom:10px;
     }
