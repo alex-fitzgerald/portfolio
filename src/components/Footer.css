@@ -16,8 +16,23 @@
 
 .footer {
     margin:0px 200px 200px 200px;
+    display:flex;
 }
 
+.footer:first-child {
+    flex:1;
+    margin-right:20px;
+}
+
+footer:nth-child(2) {
+    flex:3;
+}
+
+.footer div img {
+    border-radius:100%;
+    width:100px;
+    margin-right:20px;
+}
 
 .footer p,
 .footer a {
@@ -27,6 +42,13 @@
   padding-bottom: 2px;
   text-decoration: none;
 }
+
+.footer p:hover,
+.footer a:hover {
+    border-color:black;
+    color:black;
+}
+
 
 @media only screen and (max-width:800px) {
     .footer {

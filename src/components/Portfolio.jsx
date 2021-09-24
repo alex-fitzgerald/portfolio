@@ -25,21 +25,18 @@ function Portfolio(){
     function choiceStatus(){
         if (portfolioView === null) {
             return (
-                <div className="choiceParent">
-                    <div>
-                        <Button className="port-button" name="Web" color="white" onChoice={handleChoice} onHover={onHover} /></div>
-                        <div className="buttonDivider"></div>
+                    <div className="portfolioNav">
+                        <Button className="port-button" name="Web" color="purple" onChoice={handleChoice} onHover={onHover} />
                         <Button name="Graphics"
-                        className="port-button"  color="white" onChoice={handleChoice} onHover={onHover}/>
+                        className="port-button"  color="ltblue" onChoice={handleChoice} onHover={onHover}/>
                 </div>     
             )
         } else {
             return (
             <div className="portfolioNav">
-                <Button name="Web" color="white" className="port-button" onChoice={handleChoice} onHover={onHover}/>
-                        <div className="buttonDivider"></div>
+                <Button name="Web" color="purple" className="port-button" onChoice={handleChoice} onHover={onHover}/>
                 <Button name="Graphics" 
-                className="port-button" color="white" onChoice={handleChoice} onHover={onHover} marginProp="marginTop:-2px" />
+                className="port-button" color="ltblue" onChoice={handleChoice} onHover={onHover} marginProp="marginTop:-2px" />
             </div>     
             )
         }

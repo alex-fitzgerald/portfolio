@@ -133,14 +133,6 @@ a:hover {
   transition: .3s;
 }
 
-
-.portfolioNav {
-  position: absolute;
-  right: 6vw;
-  top:200px;
-}
-
-
 .languages {
   display: flex;
   flex-wrap: wrap;
@@ -248,15 +240,6 @@ a:hover {
     font-size: calc(26px + 2.5vh)
   }
 
-
-
-  .mainpage h2 {
-    /* font-size: calc(8px + 1.5vh) */
-  }
-
-  .mainpage h3 {
-    /* font-size: calc(6px + 1vh); */
-  }
   .apps .web-development {
     width: 100%;
     min-width: 400px;
@@ -275,9 +258,6 @@ a:hover {
     min-height:200vh;
   }
 
-  .portfolioNav {
-    top:100px;
-  }
 }
 
 
