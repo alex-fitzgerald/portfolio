@@ -15,10 +15,7 @@
 }
 
 .footer {
-  position: absolute;
-  bottom: 2vw;
-  left: 6vw;
-  z-index:1;
+ padding:50px;
 }
 
 

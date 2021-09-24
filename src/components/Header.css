@@ -28,7 +28,6 @@
     font-size:3em;
     font-weight: 700;
     position: relative;
-
 }
 
 .banner div h2 {
@@ -37,4 +36,20 @@
     position: relative;
     font-size:2em;
     font-weight: 500;
+}
+
+@media only screen and (max-width:800px) {
+    .choiceParent {
+        margin-left:50px;
+    }
+
+    .nav-blurb {
+        font-size: calc(6px + 1vh);
+        width:calc(100% - 100px);
+    }
+
+    
+    .choice h2,.choice h3 {
+        margin-left:50px;
+    }
 }

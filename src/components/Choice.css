@@ -1,17 +1,14 @@
 .choiceParent {
     display: flex;
     flex-wrap: wrap;
-    /* position: absolute; */
-    /* top: 40%; */
-    width: 100%;
+    width: calc(100% - 100px);
     margin: -6vw;
     margin-left:200px;
 }
 
 .choice h2 {
     letter-spacing:-2px;
-    margin:200px;
-    margin-bottom:50px;
+    margin:200px, 0px 50px 200px;
 }
 
 .choice h3 {
@@ -30,6 +27,7 @@
 
     .nav-blurb {
         font-size: calc(6px + 1vh);
+        width:calc(100% - 100px);
     }
 
     

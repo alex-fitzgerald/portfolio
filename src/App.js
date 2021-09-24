@@ -55,8 +55,8 @@ function App() {
       <div className="mainpage">
       { menuButton() }
       { renderChoice() }
-      <Footer />
      </div>
+      <Footer />
     </div>
   );
 }

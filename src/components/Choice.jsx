@@ -9,7 +9,7 @@ function Choice(props, styles){
 
     function onHover(buttonHovered){
         if (buttonHovered === "Skills") {
-            setBlurb(" the languages, technologies and tools I use")
+            setBlurb(" the languages and tools I use")
             setChoice("blue-text")
         } else if (buttonHovered === "Portfolio") {
             setBlurb(" some examples of my work")

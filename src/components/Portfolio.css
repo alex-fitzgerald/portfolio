@@ -48,7 +48,6 @@
     position:relative;
     transition:.3s;
     cursor: pointer;
-  
   }
   
   .pages h2:after,.apps h2:after {
