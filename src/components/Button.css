@@ -68,7 +68,7 @@
     width:30px;
     height:5px;
     border-radius:1px;
-    background-color:2196F3;
+    background-color:#2196F3;
     top:70%;
     left:50%;
     transform:translate(-50%, -50%)
@@ -80,7 +80,7 @@
     width:30px;
     height:5px;
     border-radius:1px;
-    background-color:E91E63;
+    background-color:#E91E63;
     top:70%;
     left:50%;
     transform:translate(-50%, -50%)
@@ -92,7 +92,7 @@
     width:30px;
     height:5px;
     border-radius:1px;
-    background-color:FF5722;
+    background-color:#FF5722;
     top:70%;
     left:50%;
     transform:translate(-50%, -50%)
