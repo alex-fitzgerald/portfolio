@@ -33,14 +33,12 @@ function App() {
     if (navigation === null || navigation === "Main menu" || navigation === "Back" ) {
       return null
     } else {
-      return (<Button name="Back" color="white menuButton" onChoice={chooseSkills} onHover={onHover}/>)
+      return (<Button name="Back" color="back menuButton" onChoice={chooseSkills} onHover={onHover}/>)
     }
   }
 
   function renderChoice(){
-      if (navigation === null){
-        return <Header onChoice={chooseSkills} />
-        } if (navigation === "Main menu" || navigation === "Back"){
+        if (navigation === "Main menu" || navigation === "Back"){
           return <Choice onChoice={chooseSkills} />
         } if (navigation === "Skills") {
           return <Skills />
@@ -53,6 +51,7 @@ function App() {
 
   return (
     <div className="background">
+      <Header />
       <div className="mainpage">
       { menuButton() }
       { renderChoice() }

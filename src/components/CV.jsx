@@ -1,8 +1,9 @@
 import React from 'react'
+import styles from './CV.css'
 import cv from '../img/Alexander Fitzgerald.pdf'
 
 
-function CV(){
+function CV(styles){
     return (
         <div className="cv">
          <h1>My CV</h1>

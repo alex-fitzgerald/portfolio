@@ -1,4 +1,5 @@
 import React from "react"
+import styles from "./Button.css"
 
 function Button(props){ 
   function handleClick() {
@@ -15,12 +16,13 @@ function Button(props){
 
     return (
         <div>
-            <p 
+            <button 
               onMouseEnter={handleHover} 
               onMouseLeave={handleLeave} 
               onClick={handleClick} 
+              // className={`button ${props.color}`}>{props.name}
               className={`button ${props.color}`}>{props.name}
-            </p>
+            </button>
         </div>
     )
 }

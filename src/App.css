@@ -29,26 +29,10 @@ body {
   margin: 0px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Poppins', sans-serif
+  font-family: 'Poppins', sans-serif;
+  background-color:white
 }
 
-.cv {
-  margin-bottom: 200px;
-  width: 100%;
-}
-
-.cv iframe {
-  background-color: transparent;
-  width: 100%;
-  height: 70vw;
-  position: relative;
-  border: none;
-  background-color: transparent;
-}
-
-.background {
-  background-color:white;
-}
 
 /* .background {
   background-color: #681370;
@@ -89,18 +73,17 @@ body {
 } */
 
 .mainpage {
-  padding: 6vw;
   margin: 0px;
   display: flex;
   position:relative;
   min-height:100vh;
 }
 
-.footer {
-  position: absolute;
-  bottom: 2vw;
-  left: 6vw;
+
+.spread h3 {
+  margin-top:-20px;
 }
+
 
 .mainpage h1 {
   color: black;
@@ -131,8 +114,6 @@ body {
   font-style: normal;
   font-weight: 400;
   display: inline-block;
-  margin-top: 100px;
-  margin-bottom: 40px;
 }
 
 p {
@@ -141,14 +122,6 @@ p {
   font-size: .9rem;
 }
 
-.footer p,
-.footer a {
-  border-bottom: 1px solid transparent;
-  color: rgba(0, 0, 0, 0.5);
-  font-size: .7rem;
-  padding-bottom: 2px;
-  text-decoration: none;
-}
 
 a {
   transition: .3s;
@@ -160,66 +133,6 @@ a:hover {
   transition: .3s;
 }
 
-.footer h3,
-.footer h2,
-.footer p,
-.footer a {
-  line-height: 2;
-  letter-spacing:0px;
-  margin: 0px !important;
-}
-
-.footer h2 {
-  font-size: calc(8px + 1.5vh);
-}
-.footer h3 {
-  font-size: calc(8px + .5vh);
-}
-
-.spread h3 {
-  margin-top:-20px;
-}
-
-.choiceParent {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  position: absolute;
-  bottom: 50%;
-  width: 100%;
-  margin: -6vw;
-}
-
-.button {
-  color: black;
-  cursor: pointer;
-  display: inline-block;
-  flex: 1;
-  font-size: 12px;
-  font-weight: 700 !important;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  height: 15px;
-  line-height: 1.5;
-  padding: 15px 30px;
-  text-align: center;
-  text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1);
-  width: 150px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.menuButton {
-  position: absolute;
-  right: 6vw;
-  top: 6vw;
-  user-select: none;
-  margin-top: -20px;
-}
-
-.buttonDivider {
-  margin: -2px;
-}
 
 .portfolioNav {
   position: absolute;
@@ -227,17 +140,6 @@ a:hover {
   top:200px;
 }
 
-.white,
-.menuButton {
-  background-color: transparent;
-  border: 2px solid black;
-}
-
-.white:hover,
-.menubutton:hover {
-  background-color: black;
-  color: white;
-}
 
 .languages {
   display: flex;
@@ -410,10 +312,7 @@ a:hover {
     font-size: calc(26px + 2.5vh)
   }
 
-  .nav-blurb {
-    font-size: calc(6px + 1vh);
 
-  }
 
   .mainpage h2 {
     /* font-size: calc(8px + 1.5vh) */
@@ -422,13 +321,6 @@ a:hover {
   .mainpage h3 {
     /* font-size: calc(6px + 1vh); */
   }
-
-  .button {
-    font-size: 10px;
-    padding: 10px 20px;
-    margin:0px;
-  }
-
   .apps .web-development {
     width: 100%;
     min-width: 400px;
@@ -441,18 +333,6 @@ a:hover {
     min-width: 400px;
     min-height: 400px;
     margin: 0px;
-  }
-    
-  .choiceParent {
-    display: block;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    position: absolute;
-    bottom: 50%;
-    left:50%;
-    transform:translate(-50%, 0%);
-    width: unset;
-    margin: -6vw;
   }
 
   .languages {

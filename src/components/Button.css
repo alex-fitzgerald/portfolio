@@ -1,0 +1,111 @@
+.button {
+    color: rgba(0,0,0,11);
+    cursor: pointer;
+    display: inline-block;
+    flex: 1;
+    font-family:'Poppins';
+    font-size: 2em;
+    font-weight: 300 !important;
+    line-height: 1.5;
+    text-align: center;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    height: 150px;
+    border: none;
+    position:relative;
+    -webkit-font-smoothing: antialiased;
+    transition: .3s;
+    -moz-osx-font-smoothing: grayscale;
+    box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0);
+    border-radius:10px;
+    margin:6px;
+    border-bottom:2px solid transparent;
+    background-color:white;
+}
+
+.back {
+    position:fixed;
+    top:30px;
+    right:30px;
+    z-index:999;
+    box-shadow:0px 0px 10px rgba(0,0,0,0.1)
+}
+
+.button:hover {
+    transform: translate(0px, -5px);
+    transition: .3s;
+}
+
+.blue:hover{
+    border-color: #2196F3;
+    box-shadow: 0px 10px 15px -10px #2196F3,
+                0px 10px 20px -10px rgba(0,0,0,.4);
+    /* color:#2196F3; */
+}
+.pink:hover{
+    border-color: #E91E63;
+    box-shadow: 0px 10px 15px -10px #E91E63,
+                0px 10px 20px -10px rgba(0,0,0,.4);
+    /* color:#E91E63; */
+}
+.orange:hover{
+    border-color: #FF5722;
+
+    box-shadow: 0px 10px 15px -10px #FF5722,
+                0px 10px 20px -10px rgba(0,0,0,.4);
+}
+
+.back:hover{
+    border-color: #8BC34A;
+    box-shadow: 0px 10px 15px -10px #8BC34A,
+                0px 10px 20px -10px rgba(0,0,0,.4);
+                
+}
+
+.blue:after{
+    position:absolute;
+    content:'';
+    width:30px;
+    height:5px;
+    border-radius:1px;
+    background-color:2196F3;
+    top:70%;
+    left:50%;
+    transform:translate(-50%, -50%)
+}
+
+.pink:after{
+    position:absolute;
+    content:'';
+    width:30px;
+    height:5px;
+    border-radius:1px;
+    background-color:E91E63;
+    top:70%;
+    left:50%;
+    transform:translate(-50%, -50%)
+}
+
+.orange:after{
+    position:absolute;
+    content:'';
+    width:30px;
+    height:5px;
+    border-radius:1px;
+    background-color:FF5722;
+    top:70%;
+    left:50%;
+    transform:translate(-50%, -50%)
+}
+
+.buttonDivider {
+    margin: -2px;
+}
+
+/* @media only screen and (max-width:800px) {
+    .button {
+        font-size: 10px;
+        padding: 10px 20px;
+        margin: 0px;
+    }
+} */

@@ -19,7 +19,7 @@ function Web(){
         <div>
             <h2>Web Development</h2>
             <div class="pages">
-                <h2 onClick={() => toggle("Pages")}>Pages →</h2>
+                <h2 onClick={() => toggle("Pages")}>Pages {!showPages ? "↓" : "↑"}</h2>
                 {showPages ? 
                 <div className="web-development-parent">
                     <div className="web-development">
@@ -70,7 +70,7 @@ function Web(){
                     </div> : null }
                     </div> 
                     <div class="apps">
-                    <h2 onClick={() => toggle("Apps")}>Apps →</h2>
+                    <h2 onClick={() => toggle("Apps")}>Apps {!showApps ? "↓" : "↑"}</h2>
                     {showApps ? 
                 <div className="web-development-parent">
 

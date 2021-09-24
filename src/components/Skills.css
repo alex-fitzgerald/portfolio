@@ -1,0 +1,10 @@
+.skills {
+    padding:200px;
+}
+
+@media only screen and (max-width:800px) {
+    .skills {
+        padding:50px;
+    }
+
+}

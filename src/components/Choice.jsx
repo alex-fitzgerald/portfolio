@@ -1,50 +1,59 @@
 import React, { useState, useEffect } from 'react'
 import Button from './Button.jsx'
+import styles from './Choice.css'
 
 
-function Choice(props){
-    const [day, setDay] = useState("Hey")
-    const [blurb, setBlurb] = useState("Here you'll find my a list of web and graphic technologies I have experience in, my CV, and some samples of my work")
-
-    useEffect(() => {
-        let currentDay = new Date();
-        let today = currentDay.getDay();
-        let weekString = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
-        setDay(", happy " + weekString[today])
-    })
+function Choice(props, styles){
+    const [blurb, setBlurb] = useState(" my CV and some examples of my work")
+    const [choice, setChoice] = useState(null)
 
     function onHover(buttonHovered){
         if (buttonHovered === "Skills") {
-            setBlurb("Here you'll a list of some of the web and graphic techologies I  use")
+            setBlurb(" the languages, technologies and tools I use")
+            setChoice("blue-text")
         } else if (buttonHovered === "Portfolio") {
-            setBlurb("Here you'll find a some recent web and graphic design projects I've completed")
+            setBlurb(" some examples of my work")
+            setChoice("orange-text")
+
         } else if (buttonHovered === "CV") {
-            setBlurb("Here you'll find my CV")
+            setBlurb(" my CV")
+            setChoice("pink-text")
+
         } else {
-            setBlurb("Here you'll find my a list of web and graphic technologies I have experience in, my CV, and some samples of my work")
+            // setBlurb("my CV and some examples of my work")
         }
     }
 
     return (
-        <div>
-            <h1>Hey{day}!</h1>
-            <h3 className="nav-blurb">{blurb}</h3>
+        <div class="choice">
+            <h2>
+                I'm a self-taught web developer and graphic designer
+            </h2>
+            <br />
+            <div className="nav-blurb">
+                <h3>
+                    Here you'll find 
+                    <span className={choice}> 
+                    {blurb}
+                    </span>
+                </h3>
+            </div>
             <div className="choiceParent">
                 <Button 
                     name="Skills"
-                    color="white"
+                    color="blue"
                     onChoice={props.onChoice}
                     onHover={onHover}
                 />
                 <Button 
                     name="CV"
-                    color="white"
+                    color="pink"
                     onChoice={props.onChoice}
                     onHover={onHover}
                 />
                 <Button 
                     name="Portfolio"
-                    color="white"
+                    color="orange"
                     onChoice={props.onChoice}
                     onHover={onHover}
                 />
