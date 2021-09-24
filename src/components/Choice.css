@@ -8,7 +8,7 @@
 
 .choice h2 {
     letter-spacing:-2px;
-    margin:200px, 0px 50px 200px;
+    margin:200px 0px 50px 200px;
 }
 
 .choice h3 {
@@ -38,7 +38,6 @@
 
 @media only screen and (max-width:400px) {
     .choiceParent {
-        transform: translate(-50%, 80%);
     }
 }
 
