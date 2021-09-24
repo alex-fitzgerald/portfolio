@@ -3,6 +3,14 @@ html {
   font-family: 'Poppins', sans-serif
 }
 
+h1, h2, h3, p {
+  text-shadow: 0px 0px 1px rgba(0,0,0,1);
+}
+
+h1,h2,h3 {
+  letter-spacing:-2px;
+}
+
 ::-webkit-scrollbar {
   background: transparent;
   width: 0px;
@@ -13,13 +21,12 @@ iframe {
   margin: auto;
   min-height: 800px;
   border: none;
-  background-color: white;
-  content: 'Hosted on Heroku, and can take a minute load'
+  background-color: black;
+  content: 'Hosted on Heroku, and may take a minute load'
 }
 
 body {
   margin: 0px;
-  text-shadow: 0px 0px 1px rgba(255, 255, 255, 0.01);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Poppins', sans-serif
@@ -39,10 +46,11 @@ body {
   background-color: transparent;
 }
 
-
-
 .background {
-  /* background-image: url('./img/tim-marshall-ci7Zk_fK9K0-unsplash.jpg'); */
+  background-color:white;
+}
+
+/* .background {
   background-color: #681370;
   background-size: cover;
   background-position: 100% 60%;
@@ -78,33 +86,34 @@ body {
   100% {
     background-color: #E91E63;
   }
-}
+} */
 
 .mainpage {
   padding: 6vw;
   margin: 0px;
-  display: flex
+  display: flex;
+  position:relative;
+  min-height:100vh;
 }
 
 .footer {
   position: absolute;
-  bottom: 6vw;
+  bottom: 2vw;
   left: 6vw;
 }
 
 .mainpage h1 {
-  color: white;
+  color: black;
   font-size: calc(26px + 6.5vh);
   font-style: normal;
   font-weight: 100;
   line-height: 1;
   margin-top: 0px;
   margin-bottom: 10px;
-  text-shadow: 0px 0px 1px rgba(255, 255, 255, .1);
 }
 
 .mainpage h2 {
-  color: white;
+  color: black;
   display: inline-block;
   font-size: 3em;
   font-style: normal;
@@ -112,37 +121,33 @@ body {
   line-height: 1;
   letter-spacing: 2px;
   position: relative;
-  margin-top:150px;
+  margin-top:50px;
   margin-bottom:30px;
-  text-shadow: 0px 0px 1px rgba(255, 255, 255, .1);
 }
 
 .mainpage h3 {
-  color: white;
+  color: black;
   font-size: 2em;
   font-style: normal;
   font-weight: 400;
   display: inline-block;
-  text-shadow: 0px 0px 1px rgba(255, 255, 255, .1);
   margin-top: 100px;
   margin-bottom: 40px;
 }
 
 p {
-  color: white;
+  color: black;
   margin: 0px;
   font-size: .9rem;
-  text-shadow: 0px 0px 1px rgba(255, 255, 255, .1);
 }
 
 .footer p,
 .footer a {
   border-bottom: 1px solid transparent;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.5);
   font-size: .7rem;
   padding-bottom: 2px;
   text-decoration: none;
-  text-shadow: 0px 0px 1px rgba(255, 255, 255, .1);
 }
 
 a {
@@ -150,8 +155,8 @@ a {
 }
 
 a:hover {
-  color: rgba(255, 255, 255, 1);
-  border-color: white;
+  color: rgba(0, 0, 0, 1);
+  border-color: black;
   transition: .3s;
 }
 
@@ -160,8 +165,8 @@ a:hover {
 .footer p,
 .footer a {
   line-height: 2;
+  letter-spacing:0px;
   margin: 0px !important;
-  text-shadow: 0px 0px 1px rgba(255, 255, 255, .1);
 }
 
 .footer h2 {
@@ -186,7 +191,7 @@ a:hover {
 }
 
 .button {
-  color: white;
+  color: black;
   cursor: pointer;
   display: inline-block;
   flex: 1;
@@ -219,18 +224,19 @@ a:hover {
 .portfolioNav {
   position: absolute;
   right: 6vw;
+  top:200px;
 }
 
 .white,
 .menuButton {
   background-color: transparent;
-  border: 2px solid white;
+  border: 2px solid black;
 }
 
 .white:hover,
 .menubutton:hover {
-  background-color: white;
-  color: #232b3a;
+  background-color: black;
+  color: white;
 }
 
 .languages {
@@ -240,7 +246,7 @@ a:hover {
 }
 
 .languageschild {
-  color: white;
+  color: black;
   flex: 1;
   font-size: 20px;
   display: inline-block;
@@ -256,7 +262,7 @@ a:hover {
 }
 
 .languageschild div {
-  color: white;
+  color: black;
   flex: 1;
   text-transform: initial;
   font-size: 16px;
@@ -364,7 +370,7 @@ a:hover {
   content:"";
   width:0%;
   height:3px;
-  background-color:white;
+  background-color:black;
   position:absolute;
   top:30px;
   left:0;
@@ -374,7 +380,7 @@ a:hover {
   content:"";
   width:100%;
   height:3px;
-  background-color:white;
+  background-color:black;
   position:absolute;
   top:30px;
   left:0;
@@ -451,6 +457,10 @@ a:hover {
 
   .languages {
     min-height:200vh;
+  }
+
+  .portfolioNav {
+    top:100px;
   }
 }
 

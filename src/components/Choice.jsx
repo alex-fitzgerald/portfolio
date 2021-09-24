@@ -4,7 +4,7 @@ import Button from './Button.jsx'
 
 function Choice(props){
     const [day, setDay] = useState("Hey")
-    const [blurb, setBlurb] = useState("Here's some stuff I know")
+    const [blurb, setBlurb] = useState("Here you'll find my a list of web and graphic technologies I have experience in, my CV, and some samples of my work")
 
     useEffect(() => {
         let currentDay = new Date();
@@ -21,11 +21,9 @@ function Choice(props){
         } else if (buttonHovered === "CV") {
             setBlurb("Here you'll find my CV")
         } else {
-            setBlurb("Here's some stuff I know")
+            setBlurb("Here you'll find my a list of web and graphic technologies I have experience in, my CV, and some samples of my work")
         }
     }
-
-
 
     return (
         <div>

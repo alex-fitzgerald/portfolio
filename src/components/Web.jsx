@@ -60,11 +60,11 @@ function Web(){
                     </div>
 
                     <div className="web-development">
-                        <h3>Spruced up client page - Kainga Ora</h3>
+                        <h3>Spruced up client page - Mars NZ</h3>
                         <iframe 
-                            scrolling="no"
+                            scrolling="yes"
                             title="Spruced up client page" 
-                            src="https://nxtstep.co.nz/employerProfile/kainga-ora">
+                            src="https://nxtstep.co.nz/employerProfile/mars-new-zealand">
                         </iframe>
                     </div>
                     </div> : null }
