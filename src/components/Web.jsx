@@ -1,11 +1,26 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 function Web(){
+    const [showPages, setShowPages] = useState(false)
+    const [showApps, setShowApps] = useState(false)
+
+    function toggle(choice) {
+        if (choice === "Pages") {
+            setShowPages(!showPages)
+            setShowApps(false)
+        }
+        else if (choice === "Apps") {
+            setShowPages(false)
+            setShowApps(!showApps)
+        }
+    }  
+
     return (
         <div>
             <h2>Web Development</h2>
             <div class="pages">
-                <h2>Pages</h2>
+                <h2 onClick={() => toggle("Pages")}>Pages →</h2>
+                {showPages ? 
                 <div className="web-development-parent">
                     <div className="web-development">
                         <h3>Client Resources page (WIP)</h3>
@@ -52,10 +67,11 @@ function Web(){
                             src="https://nxtstep.co.nz/employerProfile/kainga-ora">
                         </iframe>
                     </div>
-                    </div>
-                    </div>
+                    </div> : null }
+                    </div> 
                     <div class="apps">
-                    <h2>Apps</h2>
+                    <h2 onClick={() => toggle("Apps")}>Apps →</h2>
+                    {showApps ? 
                 <div className="web-development-parent">
 
 
@@ -87,7 +103,7 @@ function Web(){
                             src="https://fast-chamber-10628.herokuapp.com/">
                         </iframe>
                     </div>
-                </div>
+                </div> : null }
             </div>
         </div>
     )

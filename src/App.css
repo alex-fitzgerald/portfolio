@@ -348,6 +348,50 @@ a:hover {
   margin: 100px 30px;
 }
 
+.pages h2,.apps h2 {
+  font-size:1.2em;
+  margin-top:20px;
+  margin-bottom:20px;
+  padding-bottom:10px;
+  display:block;
+  width:100%;
+  position:relative;
+  transition:.3s;
+
+}
+
+.pages h2:after,.apps h2:after {
+  content:"";
+  width:0%;
+  height:3px;
+  background-color:white;
+  position:absolute;
+  top:30px;
+  left:0;
+  transition:.3s;
+}
+.pages h2:hover:after,.apps h2:hover:after{
+  content:"";
+  width:100%;
+  height:3px;
+  background-color:white;
+  position:absolute;
+  top:30px;
+  left:0;
+  transition:.3s;
+}
+
+
+.pages h3,.apps h3 {
+  font-size:1.2em;
+  margin-top:20px;
+  margin-left:20px;
+  margin-bottom:20px;
+  padding-bottom:10px;
+  display:block;
+}
+
+
 @media only screen and (max-width:1300px) {
   .languages {
     min-height:150vh;

@@ -5,7 +5,7 @@ import Graphic from './Graphic.jsx'
 
 function Portfolio(){
     const [portfolioView, setPortfolioView] = useState(null)
-    const [blurb, setBlurb] = useState("Alright, let's show you some stuff!")
+    const [blurb, setBlurb] = useState("Alright, let's see some stuff!")
 
     function handleChoice(choice){
         setPortfolioView(choice)
@@ -13,11 +13,11 @@ function Portfolio(){
 
     function onHover(buttonHovered){
         if (buttonHovered === "Web Development") {
-            setBlurb("Alright, let's show some web apps!")
+            setBlurb("Let's see some web pages and apps")
         } else if (buttonHovered === "Graphic Design") {
-            setBlurb("Alright, let's show some graphic design!")
+            setBlurb("Let's see some graphic design")
         } else {
-            setBlurb("Alright, let's show you some stuff!")
+            setBlurb("Let's see some stuff")
         }
     }
 
