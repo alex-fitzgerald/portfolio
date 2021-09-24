@@ -4,11 +4,12 @@
     width: calc(100% - 100px);
     margin: -6vw;
     margin-left:200px;
+    margin-bottom:100px;
 }
 
 .choice h2 {
     letter-spacing:-2px;
-    margin:200px 0px 50px 200px;
+    margin:200px 200px 50px 200px;
 }
 
 .choice h3 {
@@ -23,25 +24,27 @@
 @media only screen and (max-width:800px) {
     .choiceParent {
         margin-left:50px;
+        display:block;
     }
 
     .nav-blurb {
         font-size: calc(6px + 1vh);
-        width:calc(100% - 100px);
         height:240px
 
     }
 
-    
-    .choice h2,.choice h3 {
+    .choice h2 {
+        margin:200px 50px 50px 50px;
+    }
+    .choice h3 {
         margin-left:50px;
+        margin-right:50px;
     }
 }
 
 @media only screen and (max-width:600px) {
     .nav-blurb {
         font-size: calc(6px + 1vh);
-        width:calc(100% - 100px);
         height:290px
     }
 

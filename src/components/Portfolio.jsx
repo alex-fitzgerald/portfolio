@@ -27,17 +27,19 @@ function Portfolio(){
             return (
                 <div className="choiceParent">
                     <div>
-                        <Button name="Web" color="white" onChoice={handleChoice} onHover={onHover} /></div>
+                        <Button className="port-button" name="Web" color="white" onChoice={handleChoice} onHover={onHover} /></div>
                         <div className="buttonDivider"></div>
-                        <Button name="Graphics" color="white" onChoice={handleChoice} onHover={onHover}/>
+                        <Button name="Graphics"
+                        className="port-button"  color="white" onChoice={handleChoice} onHover={onHover}/>
                 </div>     
             )
         } else {
             return (
             <div className="portfolioNav">
-                <Button name="Web" color="white" onChoice={handleChoice} onHover={onHover}/>
+                <Button name="Web" color="white" className="port-button" onChoice={handleChoice} onHover={onHover}/>
                         <div className="buttonDivider"></div>
-                <Button name="Graphics" color="white" onChoice={handleChoice} onHover={onHover} marginProp="marginTop:-2px" />
+                <Button name="Graphics" 
+                className="port-button" color="white" onChoice={handleChoice} onHover={onHover} marginProp="marginTop:-2px" />
             </div>     
             )
         }

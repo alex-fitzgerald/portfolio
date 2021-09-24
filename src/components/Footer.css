@@ -15,7 +15,7 @@
 }
 
 .footer {
- padding:50px;
+    margin:0px 200px 200px 200px;
 }
 
 
@@ -28,3 +28,9 @@
   text-decoration: none;
 }
 
+@media only screen and (max-width:800px) {
+    .footer {
+        margin:0px 70px 70px 70px;
+       }
+       
+}
