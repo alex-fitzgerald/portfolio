@@ -24,6 +24,10 @@
     margin-bottom:50px;
 }
 
+.portfolio h2 {
+    letter-spacing:-3px;
+}
+
 
 .portfolioNav div  {
     flex:1;
@@ -62,6 +66,7 @@
     position: relative;
     transition: .3s;
     cursor: pointer;
+    letter-spacing:-1px;
 }
 
 .pages h2:after,

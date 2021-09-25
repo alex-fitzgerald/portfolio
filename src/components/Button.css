@@ -1,4 +1,9 @@
 .button {
+    background-color:white;
+    border: none;
+    border-radius:10px;
+    border-bottom:2px solid transparent;
+    box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0);
     color: rgba(0,0,0,11);
     cursor: pointer;
     display: inline-block;
@@ -6,21 +11,17 @@
     font-family:'Poppins';
     font-size: 2em;
     font-weight: 400 !important;
-    line-height: 1.5;
-    text-align: center;
-    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.1);
-    width: 150px;
     height: 150px;
-    border: none;
+    letter-spacing:-2px;
+    line-height: 1.5;
     position:relative;
-    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 1);
     transition: .3s;
+    width: 150px;
+    -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0);
-    border-radius:10px;
     margin:6px;
-    border-bottom:2px solid transparent;
-    background-color:white;
 }
 
 .back {
@@ -76,63 +77,41 @@
 }
 
 .blue:after{
-    position:absolute;
-    content:'';
-    width:30px;
-    height:5px;
-    border-radius:1px;
     background-color:#2196F3;
-    top:70%;
-    left:50%;
-    transform:translate(-50%, -50%)
 }
 
 .pink:after{
-    position:absolute;
-    content:'';
-    width:30px;
-    height:5px;
-    border-radius:1px;
     background-color:#E91E63;
-    top:70%;
-    left:50%;
-    transform:translate(-50%, -50%)
 }
 
 .orange:after{
-    position:absolute;
-    content:'';
-    width:30px;
-    height:5px;
-    border-radius:1px;
     background-color:#FF5722;
-    top:70%;
-    left:50%;
-    transform:translate(-50%, -50%)
 }
 
 .ltblue:after{
-    position:absolute;
-    content:'';
-    width:30px;
-    height:5px;
-    border-radius:1px;
     background-color:#03A9F4;
-    top:70%;
-    left:50%;
-    transform:translate(-50%, -50%)
 }
 
 .purple:after{
+    background-color:#9C27B0;
+}
+
+:is(.purple, .ltblue,.pink,.orange,.blue,.back):after {
     position:absolute;
     content:'';
-    width:30px;
-    height:5px;
+    width:20%;
+    height:3px;
     border-radius:1px;
-    background-color:#9C27B0;
-    top:70%;
+    top:100%;
     left:50%;
+    transition:.3s;
     transform:translate(-50%, -50%)
+}
+
+:is(.purple, .ltblue,.pink,.orange,.blue,.back):hover:after{
+    width:90%;
+    background-color:transparent;
+    transition:.3s
 }
 
 .buttonDivider {
@@ -152,10 +131,10 @@
         min-width:20%;
     }
 
-    .blue:after,.pink:after,.purple:after,.orange:after,.ltblue:after{
-        top:90%;
+    :is(.purple, .ltblue,.pink,.orange,.blue,.back):after{
+        top:100%;
         width:20%;
-        height:3px;
+        height:2px;
     }
 }
 
