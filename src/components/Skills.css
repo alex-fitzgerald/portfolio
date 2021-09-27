@@ -8,3 +8,48 @@
     }
 
 }
+
+.languages {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+  
+  .languageschild {
+    color: black;
+    flex: 1;
+    font-size: 20px;
+    display: inline-block;
+    margin: 20px;
+    min-width: 220px;
+    margin-bottom: 50px;
+  }
+  
+  .languageschild img {
+    float: left;
+    margin-right: 20px;
+    width: 40px;
+  }
+  
+  .languageschild div {
+    color: black;
+    flex: 1;
+    text-transform: initial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2;
+    margin: 40px 0px;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, .5), 0px 0px 1px rgba(49, 37, 37, 0.001);
+  }
+  
+  .languageschild h2{
+    margin-top:0px;
+  }
+
+  @media only screen and (max-width:800px) {
+    
+  .languages {
+    min-height:200vh;
+  }
+
+}

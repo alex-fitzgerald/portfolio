@@ -1,7 +1,8 @@
 .portfolio {
     margin-bottom: 200px;
     padding: 200px;
-    width: 100%;
+    width:calc(100% - 400px);
+
 }
 
 .port-blurb {
@@ -11,11 +12,27 @@
 @media only screen and (max-width:800px) {
     .portfolio {
         padding: 50px;
+        width:calc(100% - 100px)
     }
 
     .portfolioNav {
         top: 100px;
     }
+
+      
+    .apps .web-development {
+        width: 100%;
+        min-width: 200px;
+        min-height: 400px;
+        margin: 0px
+      }
+      
+      .pages .web-development {
+        width: 100%;
+        min-width: 4020px;
+        min-height: 400px;
+        margin: 0px;
+      }
 }
 
 .portfolioNav {
@@ -44,16 +61,9 @@
     width: 100%;
     /* min-width: 400px; */
     min-height: 400px;
-    margin: 100px 30px;
+    margin: 100px 0px;
 }
 
-.pages .web-development {
-    flex: 1;
-    width: 100%;
-    min-width: 800px;
-    min-height: 400px;
-    margin: 100px 30px;
-}
 
 .pages h2,
 .apps h2 {
@@ -98,7 +108,7 @@
 .apps h3 {
     font-size: 1.2em;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 0px;
     margin-bottom: 20px;
     padding-bottom: 10px;
     display: block;
