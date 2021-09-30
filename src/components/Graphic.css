@@ -1,0 +1,134 @@
+
+.spread-parent {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .spread {
+      display:block;
+    min-height: 800px;
+    min-width: calc(100% - 50px);
+    max-width: 400px;
+    margin: 100px auto;
+    position: relative;
+    flex: 1;
+  }
+  
+  .spread img {
+    max-height: 400px;
+    max-width: 400px;
+    transition: .3s;
+    position: absolute;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .spread :nth-child(2) {
+    transform: rotate(2deg);
+    left: 5vw;
+    top: 80px;
+  }
+  
+  .spread :nth-child(3) {
+    transform: rotate(-15deg) scale(1.1);
+    left: 20vw;
+    top: 250px;
+  }
+  
+  .spread :nth-child(4) {
+    transform: rotate(20deg);
+    left: 10vw;
+    top: 430px;
+  }
+  
+  .spread :nth-child(5) {
+    transform: rotate(20deg);
+    left: 10vw;
+    top: 610px;
+  }
+  
+  .spread :nth-child(6) {
+    transform: rotate(20deg);
+    left: 10vw;
+    top: 830px;
+  }
+
+  .spread :nth-child(7) {
+    transform: rotate(20deg);
+    left: 10vw;
+    top: 1000px;
+  }
+
+  .spreadLong {
+    display:block;
+    min-height: 1200px;
+    min-width: calc(100% - 50px);
+
+    max-width:400px;
+    margin: 100px auto;
+    position: relative;
+    flex: 1;
+  }
+  
+  .spreadLong img {
+    max-height: 400px;
+    max-width: 400px;
+    transition: .3s;
+    position: absolute;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .spreadLong :nth-child(2) {
+    transform: rotate(2deg);
+    left: 5vw;
+    top: 80px;
+  }
+  
+  .spreadLong :nth-child(3) {
+    transform: rotate(-15deg) scale(1.1);
+    left: 40vw;
+    top: 200px;
+  }
+  
+  .spreadLong :nth-child(4) {
+    transform: rotate(10deg);
+    left: -10vw;
+    top: 330px;
+  }
+  
+  .spreadLong :nth-child(5) {
+    transform: rotate(20deg);
+    left: 30vw;
+    top: 410px;
+  }
+  
+  .spreadLong :nth-child(6) {
+    transform: rotate(-20deg);
+    left: 0vw;
+    top: 630px;
+  }
+
+  .spreadLong :nth-child(7) {
+    transform: rotate(20deg);
+    left: 15vw;
+    top: 800px;
+  }
+  
+  .spread img:hover~.spread img {
+    border: solid 4px blue;
+  }
+  
+  
+@media only screen and (max-width:800px) {
+    .spread,.spreadLong {
+        margin:25px;   
+    }
+    .spread h3,.spreadLong h3 {
+        font-size:1.5em;
+    }
+}
+@media only screen and (max-width:500px) {
+    .spread img,.spreadLong img {
+      max-width:300px;
+      max-height:300px;
+}
+}

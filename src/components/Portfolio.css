@@ -21,15 +21,15 @@
 
       
     .apps .web-development {
-        width: 100%;
+        /* width: 100%; */
         min-width: 200px;
         min-height: 400px;
         margin: 0px
       }
       
       .pages .web-development {
-        width: 100%;
-        min-width: 4020px;
+        /* width: 100%; */
+        min-width: 400px;
         min-height: 400px;
         margin: 0px;
       }
@@ -56,9 +56,10 @@
     justify-content: space-between;
 }
 
-.apps .web-development {
+.apps, .web-development {
     flex: 1;
     width: 100%;
+    min-width:60vw;
     /* min-width: 400px; */
     min-height: 400px;
     margin: 100px 0px;

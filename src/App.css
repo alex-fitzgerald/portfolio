@@ -135,62 +135,6 @@ a:hover {
 
 
 
-.spread-parent {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.spread {
-  min-height: 800px;
-  min-width: 600px;
-  max-width: 600px;
-  margin: 100px auto;
-  position: relative;
-  flex: 1;
-}
-
-.spread img {
-  max-height: 400px;
-  max-width: 400px;
-  transition: .3s;
-  position: absolute;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
-}
-
-.spread :nth-child(2) {
-  transform: rotate(2deg);
-  left: 5vw;
-  top: 80px;
-}
-
-.spread :nth-child(3) {
-  transform: rotate(-15deg) scale(1.1);
-  left: 20vw;
-  top: 250px;
-}
-
-.spread :nth-child(4) {
-  transform: rotate(20deg);
-  left: 10vw;
-  top: 450px;
-}
-
-.spread :nth-child(5) {
-  transform: rotate(20deg);
-  left: 10vw;
-  top: 450px;
-}
-
-.spread :nth-child(6) {
-  transform: rotate(20deg);
-  left: 10vw;
-  top: 450px;
-}
-
-.spread img:hover~.spread img {
-  border: solid 4px blue;
-}
-
 
 
 @media only screen and (max-width:1300px) {

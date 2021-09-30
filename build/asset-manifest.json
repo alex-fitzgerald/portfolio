@@ -1,19 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a4062d1d.chunk.css",
-    "main.js": "/portfolio/static/js/main.deff884d.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.deff884d.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.7fb58e91.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.7fb58e91.js.map",
+    "main.css": "/portfolio/static/css/main.f62f02be.chunk.css",
+    "main.js": "/portfolio/static/js/main.52585cc4.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.52585cc4.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.fcaf5197.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.fcaf5197.js.map",
     "static/js/2.7d8bd14c.chunk.js": "/portfolio/static/js/2.7d8bd14c.chunk.js",
     "static/js/2.7d8bd14c.chunk.js.map": "/portfolio/static/js/2.7d8bd14c.chunk.js.map",
-    "static/js/3.77ece53c.chunk.js": "/portfolio/static/js/3.77ece53c.chunk.js",
-    "static/js/3.77ece53c.chunk.js.map": "/portfolio/static/js/3.77ece53c.chunk.js.map",
+    "static/js/3.06eba91d.chunk.js": "/portfolio/static/js/3.06eba91d.chunk.js",
+    "static/js/3.06eba91d.chunk.js.map": "/portfolio/static/js/3.06eba91d.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.a4062d1d.chunk.css.map": "/portfolio/static/css/main.a4062d1d.chunk.css.map",
+    "static/css/main.f62f02be.chunk.css.map": "/portfolio/static/css/main.f62f02be.chunk.css.map",
     "static/js/2.7d8bd14c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.7d8bd14c.chunk.js.LICENSE.txt",
     "static/media/Alexander Fitzgerald.87ac0afa.pdf": "/portfolio/static/media/Alexander Fitzgerald.87ac0afa.pdf",
     "static/media/Oauth_logo.svg.14513947.png": "/portfolio/static/media/Oauth_logo.svg.14513947.png",
+    "static/media/accenture1.60486b15.jpg": "/portfolio/static/media/accenture1.60486b15.jpg",
+    "static/media/callum-tall.688d58e5.jpg": "/portfolio/static/media/callum-tall.688d58e5.jpg",
+    "static/media/coverpage_Page_01.1fd23724.jpg": "/portfolio/static/media/coverpage_Page_01.1fd23724.jpg",
+    "static/media/coverpage_Page_24.63b84f37.jpg": "/portfolio/static/media/coverpage_Page_24.63b84f37.jpg",
+    "static/media/coverpage_Page_32.a2ff0ad2.jpg": "/portfolio/static/media/coverpage_Page_32.a2ff0ad2.jpg",
     "static/media/datacom1.7bd9ed00.jpg": "/portfolio/static/media/datacom1.7bd9ed00.jpg",
     "static/media/datacom2.dd91e6b5.jpg": "/portfolio/static/media/datacom2.dd91e6b5.jpg",
     "static/media/edith2.53b4fb25.jpg": "/portfolio/static/media/edith2.53b4fb25.jpg",
@@ -29,12 +34,13 @@
     "static/media/rmcv1.97f4cc00.jpg": "/portfolio/static/media/rmcv1.97f4cc00.jpg",
     "static/media/rmcv2.d19abff6.jpg": "/portfolio/static/media/rmcv2.d19abff6.jpg",
     "static/media/rmcv3.c8dc78a2.jpg": "/portfolio/static/media/rmcv3.c8dc78a2.jpg",
-    "static/media/rolling2.3d633ac1.jpg": "/portfolio/static/media/rolling2.3d633ac1.jpg"
+    "static/media/rolling2.3d633ac1.jpg": "/portfolio/static/media/rolling2.3d633ac1.jpg",
+    "static/media/webinar.4122cf5f.jpg": "/portfolio/static/media/webinar.4122cf5f.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7fb58e91.js",
+    "static/js/runtime-main.fcaf5197.js",
     "static/js/2.7d8bd14c.chunk.js",
-    "static/css/main.a4062d1d.chunk.css",
-    "static/js/main.deff884d.chunk.js"
+    "static/css/main.f62f02be.chunk.css",
+    "static/js/main.52585cc4.chunk.js"
   ]
 }
