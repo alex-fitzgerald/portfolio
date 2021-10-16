@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c8150de1.chunk.css",
+    "main.css": "/portfolio/static/css/main.1d793939.chunk.css",
     "main.js": "/portfolio/static/js/main.cfa1b7bc.chunk.js",
     "main.js.map": "/portfolio/static/js/main.cfa1b7bc.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.fcaf5197.js",
@@ -10,7 +10,7 @@
     "static/js/3.06eba91d.chunk.js": "/portfolio/static/js/3.06eba91d.chunk.js",
     "static/js/3.06eba91d.chunk.js.map": "/portfolio/static/js/3.06eba91d.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.c8150de1.chunk.css.map": "/portfolio/static/css/main.c8150de1.chunk.css.map",
+    "static/css/main.1d793939.chunk.css.map": "/portfolio/static/css/main.1d793939.chunk.css.map",
     "static/js/2.7d8bd14c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.7d8bd14c.chunk.js.LICENSE.txt",
     "static/media/Alexander Fitzgerald.87ac0afa.pdf": "/portfolio/static/media/Alexander Fitzgerald.87ac0afa.pdf",
     "static/media/Oauth_logo.svg.14513947.png": "/portfolio/static/media/Oauth_logo.svg.14513947.png",
@@ -62,7 +62,7 @@
   "entrypoints": [
     "static/js/runtime-main.fcaf5197.js",
     "static/js/2.7d8bd14c.chunk.js",
-    "static/css/main.c8150de1.chunk.css",
+    "static/css/main.1d793939.chunk.css",
     "static/js/main.cfa1b7bc.chunk.js"
   ]
 }
