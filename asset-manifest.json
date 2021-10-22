@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.bc4cf97a.chunk.css",
-    "main.js": "/portfolio/static/js/main.cfa1b7bc.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.cfa1b7bc.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.28ed13a6.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.28ed13a6.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.fcaf5197.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.fcaf5197.js.map",
     "static/js/2.7d8bd14c.chunk.js": "/portfolio/static/js/2.7d8bd14c.chunk.js",
@@ -16,6 +16,8 @@
     "static/media/Oauth_logo.svg.14513947.png": "/portfolio/static/media/Oauth_logo.svg.14513947.png",
     "static/media/accenture1.60486b15.jpg": "/portfolio/static/media/accenture1.60486b15.jpg",
     "static/media/accenture2.89e518ea.jpg": "/portfolio/static/media/accenture2.89e518ea.jpg",
+    "static/media/ad1.6b9c4a57.jpg": "/portfolio/static/media/ad1.6b9c4a57.jpg",
+    "static/media/ad2.e167f0d7.jpg": "/portfolio/static/media/ad2.e167f0d7.jpg",
     "static/media/anz.07f01ae1.PNG": "/portfolio/static/media/anz.07f01ae1.PNG",
     "static/media/apprento1.06688819.jpg": "/portfolio/static/media/apprento1.06688819.jpg",
     "static/media/apprento2.759d66a1.jpg": "/portfolio/static/media/apprento2.759d66a1.jpg",
@@ -63,6 +65,6 @@
     "static/js/runtime-main.fcaf5197.js",
     "static/js/2.7d8bd14c.chunk.js",
     "static/css/main.bc4cf97a.chunk.css",
-    "static/js/main.cfa1b7bc.chunk.js"
+    "static/js/main.28ed13a6.chunk.js"
   ]
 }
